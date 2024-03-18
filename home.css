@@ -1,0 +1,66 @@
+@import'nav.css';
+
+.fix{
+    clear:both;
+    overflow:hidden;
+}
+header{
+    overflow:hidden;
+    height:100vh;
+}
+
+.vid-bg{
+    position:absolute;
+    right:0;
+    bottom:50;
+    min-width:100%;
+    min-height:100%;
+    overflow:hidden;
+    
+}
+.welcome-text{
+
+    position:relative;
+    top:41%;
+    text-align:center;
+    
+}
+.welcome-text h1{
+    color:azure;
+    font-size:60px;
+    margin:0;
+    font-family:serif;
+    
+
+}
+.welcome-text h4{
+    color:azure;
+    font-size:19px;
+}
+.buton{
+    background:olive;
+    border:none;
+    color:white;
+    padding: 10px 30px;
+    font-size:15px;
+    border-radius:25px;
+    font-family:serif;
+    margin:30px;
+    cursor:pointer;
+}
+.buton:hover{
+    background-color:rgb(213, 213, 25);
+}
+/*rooms*/
+.rooms{
+    position:relative;
+    overflow:hidden;
+    padding:20px 0;
+
+}
+.heading{
+    padding:0 10vw;
+    font-size:30px;
+    font-weight:500;
+    margin-bottom:40;
+}
